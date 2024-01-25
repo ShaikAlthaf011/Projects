@@ -1,0 +1,10 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+<suite name="PageObjectModel" parallel="classes" thread-count="2">
+    <test name="Testproject" >
+        <classes>
+            <class name="Projects.Clickcounterproject"></class>
+            <class name="Projects.TipCaluclatorproject"></class>
+            <class name="Projects.Wikipediasearchappproject"></class>
+        </classes>
+    </test>
+</suite>
